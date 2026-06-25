@@ -1,183 +1,499 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <!-- CONFIGURACIÓN -->
     <meta charset="utf-8">
-    <meta name="author" content="KEIRA">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+    <meta name="author"
+        content="Keira">
     <meta name="description"
-        content="Conoce más sobre La Casa de la Madera y nuestro trabajo artesanal.">
+        content="Conoce la historia, misión, visión y compromiso de La Casa de la Madera.">
     <meta name="keywords"
         content="carpintería, nosotros, misión, visión, madera, muebles">
-    <title>NOSOTROS | LA CASA DE LA MADERA</title>
+    <title>Nosotros | La Casa de la Madera</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet"
+        href="../dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS PERSONAL -->
+    <link rel="stylesheet"
+        href="../dist/css/mystyle.css">
 </head>
-<body bgcolor="#F5EFE8">
+<body>
     <!-- CABECERA -->
     <header>
-        <table width="100%" bgcolor="#EFE6DD" cellpadding="15">
-            <tr>
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+            <div class="container">
                 <!-- LOGO -->
-                <td width="20%">
-                    <a href="../index.html">
-                        <img src="../dist/image/logo 2.png" width="250">
-                    </a>
-                </td>
-                <!-- TITULO -->
-                <td width="35%">
-                    <h1>
-                        NOSOTROS
-                    </h1>
-                    <p>
-                        Conoce más sobre nuestra carpintería
-                    </p>
-                </td>
-                <!-- MENU -->
-                <td align="center">
-                    <a href="../index.html">
-                        INICIO
-                    </a>
-                </td>
-                <td align="center">
-                    <a href="productos.html">
-                        PRODUCTOS
-                    </a>
-                </td>
-                <td align="center">
-                    <a href="servicios.html">
-                        SERVICIOS
-                    </a>
-                </td>
-                <td align="center">
-                    <a href="contacto.html">
-                        CONTACTO
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </header>
-    <!-- CONTENIDO -->
-    <main>
-        <!-- QUIENES SOMOS -->
-        <section>
-            <table width="100%" cellpadding="30">
-                <tr>
-                    <!-- IMAGEN -->
-                    <td width="50%">
-                        <img src="../dist/gif/nosotros.gif" width="70%">
-                    </td>
-                    <!-- TEXTO -->
-                    <td width="50%" valign="top">
-                        <h1>
+                <a class="navbar-brand d-flex align-items-center"
+                    href="../index.html">
+                    <img
+                        src="../dist/image/logo 2.png"
+                        alt="Logo"
+                        width="90"
+                        class="logo-navbar me-3">
+                    <div>
+                        <h3 class="m-0 titulo-logo">
                             LA CASA DE LA MADERA
+                        </h3>
+                        <small class="subtitulo-logo">
+                            Carpintería Artesanal
+                        </small>
+                    </div>
+                </a>
+                <!-- MENÚ -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- MENÚ PRINCIPAL -->
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="menuPrincipal">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="../index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bold"
+                                href="nosotros.html">
+                                Nosotros
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="productos.html">
+                                Productos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="servicios.html">
+                                Servicios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- BANNER DE PRESENTACIÓN -->
+        <section class="banner-nosotros py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- TEXTO -->
+                    <div class="col-12 col-lg-6">
+                        <h5 class="subtitulo">
+                            Conoce Nuestra Historia
+                        </h5>
+                        <h1 class="display-4 fw-bold titulo-principal">
+                            Nosotros
                         </h1>
-                        <p>
-                            Somos una carpintería artesanal dedicada
-                            a la elaboración de muebles y trabajos
-                            en madera personalizados.
+                        <p class="lead mt-4">
+                            En <strong>La Casa de la Madera</strong> creemos que
+                            cada proyecto comienza con una idea y termina
+                            convirtiéndose en un espacio lleno de vida,
+                            comodidad y estilo.
                         </p>
                         <p>
-                            Nuestro compromiso es brindar productos
-                            de calidad que combinen funcionalidad,
-                            diseño y durabilidad.
+                            Nuestro compromiso es ofrecer muebles y trabajos
+                            en madera que combinen funcionalidad, calidad y
+                            acabados profesionales, siempre adaptándonos a las
+                            necesidades de cada cliente.
                         </p>
-                        <p>
-                            Cada proyecto es realizado con dedicación,
-                            experiencia y atención a los detalles,
-                            buscando siempre la satisfacción de
-                            nuestros clientes.
-                        </p>
-                    </td>
-                </tr>
-            </table>
+                        <blockquote class="frase-nosotros mt-4">
+                            "Más que fabricar muebles, creamos espacios
+                            que acompañan cada momento de tu vida."
+                        </blockquote>
+                    </div>
+                    <!-- IMAGEN -->
+                    <div class="col-12 col-lg-6 text-center">
+                        <img
+                            src="../dist/image/nosotros.png"
+                            alt="Nosotros"
+                            class="img-fluid imagen-principal">
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- MISION Y VISION -->
-        <section>
-            <table width="100%" cellpadding="20">
-                <tr>
-                    <!-- MISION -->
-                    <td width="50%" align="center">
-                        <h2>
-                            MISIÓN
+        <!-- NUESTRA HISTORIA -->
+        <section class="py-5">
+            <div class="container">
+                <!-- TÍTULO -->
+                <div class="row mb-5">
+                    <div class="col text-center">
+                        <h5 class="subtitulo">
+                            Nuestra Historia
+                        </h5>
+                        <h2 class="titulo-seccion">
+                            Pasión por la Carpintería
                         </h2>
-                        <p>
-                            Elaborar muebles y trabajos en madera
-                            de alta calidad, ofreciendo soluciones
-                            personalizadas que satisfagan las necesidades
-                            de nuestros clientes.
+                        <p class="texto-seccion">
+                            Conoce un poco más sobre quiénes somos y el
+                            compromiso que ponemos en cada uno de nuestros
+                            proyectos.
                         </p>
-                    </td>
-                    <!-- VISION -->
-                    <td width="50%" align="center">
-                        <h2>
-                            VISIÓN
-                        </h2>
+                    </div>
+                </div>
+                <!-- CONTENIDO -->
+                <div class="row align-items-center">
+                    <!-- TEXTO -->
+                    <div class="col-12 col-lg-6">
+                        <h3>
+                            ¿Quiénes Somos?
+                        </h3>
                         <p>
-                            Ser una carpintería reconocida por la calidad,
-                            confianza y excelencia de nuestros trabajos,
-                            convirtiéndonos en una referencia en el sector.
+                            En <strong>La Casa de la Madera</strong> somos una
+                            carpintería dedicada a la fabricación de muebles y
+                            trabajos personalizados en madera, elaborados con
+                            dedicación, responsabilidad y atención a cada
+                            detalle.
                         </p>
-                    </td>
-                </tr>
-            </table>
+                        <p>
+                            Nuestro trabajo combina técnicas artesanales con
+                            diseños funcionales para crear espacios cómodos,
+                            elegantes y duraderos, siempre buscando superar las
+                            expectativas de nuestros clientes.
+                        </p>
+                        <p>
+                            Cada proyecto representa nuestro compromiso con la
+                            calidad, el esfuerzo y la pasión por transformar la
+                            madera en piezas únicas que acompañarán a las
+                            familias durante muchos años.
+                        </p>
+                    </div>
+                    <!-- IMAGEN -->
+                    <div class="col-12 col-lg-6 text-center">
+                        <img
+                            src="../dist/gif/nosotros.gif"
+                            alt="Nuestro Taller"
+                            class="img-fluid imagen-historia">
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- VIDEO -->
-        <section>
-            <center>
-                <h1>
-                    NUESTRO TRABAJO
-                </h1>
-                <p>
-                    Conoce un poco más sobre el proceso de trabajo
-                    en nuestra carpintería.
-                </p>
-                <br>
-                <video width="20%" controls>
-                    <source src="../dist/video/carpinteria.mp4"
-                        type="video/mp4">
-                </video>
-                <br>
-                <br>
-            </center>
+        <!-- MISIÓN Y VISIÓN -->
+        <section class="py-5">
+            <div class="container">
+                <!-- TÍTULO -->
+                <div class="row mb-5">
+                    <div class="col text-center">
+                        <h5 class="subtitulo">
+                            Nuestra Esencia
+                        </h5>
+                        <h2 class="titulo-seccion">
+                            Misión y Visión
+                        </h2>
+                        <p class="texto-seccion">
+                            Nuestros principios guían cada proyecto y reflejan
+                            el compromiso que tenemos con nuestros clientes y
+                            con la calidad de nuestro trabajo.
+                        </p>
+                    </div>
+                </div>
+                <!-- TARJETAS -->
+                <div class="row g-4">
+                    <!-- MISIÓN -->
+                    <div class="col-12 col-lg-6">
+                        <div class="card h-100 shadow-sm card-mision">
+                            <div class="card-body text-center">
+                                <div class="icono-card mb-3">
+                                    <i class="bi bi-bullseye"></i>
+                                </div>
+                                <h3 class="card-title">
+                                    Nuestra Misión
+                                </h3>
+                                <p class="card-text">
+                                    Elaborar muebles y trabajos en madera que
+                                    combinen calidad, funcionalidad y diseño,
+                                    ofreciendo soluciones personalizadas que
+                                    satisfagan las necesidades de cada cliente
+                                    mediante un servicio responsable y un
+                                    trabajo artesanal de excelencia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- VISIÓN -->
+                    <div class="col-12 col-lg-6">
+                        <div class="card h-100 shadow-sm card-vision">
+                            <div class="card-body text-center">
+                                <div class="icono-card mb-3">
+                                    <i class="bi bi-eye-fill"></i>
+                                </div>
+                                <h3 class="card-title">
+                                    Nuestra Visión
+                                </h3>
+                                <p class="card-text">
+                                    Ser una carpintería reconocida por la
+                                    calidad de nuestros productos, la innovación
+                                    en nuestros diseños y la confianza que
+                                    brindamos a nuestros clientes, convirtiéndonos
+                                    en un referente del trabajo artesanal en la
+                                    región.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!-- BENEFICIOS -->
-        <section>
-            <table width="100%" bgcolor="#EFE6DD" cellpadding="20">
-                <tr>
-                    <td align="center">
-                        <h2>
-                            EXPERIENCIA
+        <!-- NUESTRO TRABAJO EN ACCIÓN -->
+        <section class="py-5">
+            <div class="container">
+                <!-- TÍTULO -->
+                <div class="row mb-5">
+                    <div class="col text-center">
+                        <h5 class="subtitulo">
+                            Nuestro Trabajo
+                        </h5>
+                        <h2 class="titulo-seccion">
+                            Así Trabajamos Cada Proyecto
                         </h2>
-                        <p>
-                            Años de dedicación en trabajos artesanales.
+                        <p class="texto-seccion">
+                            Cada mueble y cada proyecto son elaborados con
+                            dedicación, precisión y materiales de calidad.
+                            Nuestro objetivo es ofrecer resultados que combinen
+                            funcionalidad, diseño y durabilidad.
                         </p>
-                    </td>
-                    <td align="center">
-                        <h2>
-                            CALIDAD
+                    </div>
+                </div>
+                <!-- VIDEO -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="card shadow-lg border-0 video-card">
+                            <div class="card-body">
+                                <video
+                                    class="w-100 rounded"
+                                    controls
+                                    poster="../dist/image/nosotros2.png">
+                                    <source
+                                        src="../dist/video/carpinteria.mp4"
+                                        type="video/mp4">
+                                    Tu navegador no soporta la reproducción de
+                                    videos.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TEXTO INFERIOR -->
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <h4>
+                            Calidad en Cada Detalle
+                        </h4>
+                        <p>
+                            Nuestro proceso de trabajo combina experiencia,
+                            creatividad y compromiso para convertir la madera
+                            en muebles funcionales y elegantes que acompañarán
+                            a nuestros clientes durante muchos años.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ¿POR QUÉ CONFIAR EN NOSOTROS? -->
+        <section class="py-5 confianza">
+            <div class="container">
+                <!-- TÍTULO -->
+                <div class="row mb-5">
+                    <div class="col text-center">
+                        <h5 class="subtitulo">
+                            Nuestro Compromiso
+                        </h5>
+                        <h2 class="titulo-seccion">
+                            ¿Por Qué Confiar en Nosotros?
                         </h2>
-                        <p>
-                            Materiales seleccionados y acabados duraderos.
+                        <p class="texto-seccion">
+                            Nuestro objetivo es ofrecer productos de calidad y
+                            un servicio que genere confianza y satisfacción en
+                            cada uno de nuestros clientes.
                         </p>
-                    </td>
-                    <td align="center">
-                        <h2>
-                            COMPROMISO
-                        </h2>
-                        <p>
-                            Responsabilidad y atención en cada proyecto.
-                        </p>
-                    </td>
-                </tr>
-            </table>
+                    </div>
+                </div>
+                <!-- TARJETAS -->
+                <div class="row g-4">
+                    <!-- CALIDAD -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 shadow-sm card-confianza">
+                            <div class="card-body text-center">
+                                <div class="icono-card mb-3">
+                                    <i class="bi bi-award-fill"></i>
+                                </div>
+                                <h4>
+                                    Calidad Garantizada
+                                </h4>
+                                <p>
+                                    Seleccionamos cuidadosamente los materiales
+                                    para ofrecer muebles resistentes,
+                                    funcionales y con excelentes acabados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- EXPERIENCIA -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 shadow-sm card-confianza">
+                            <div class="card-body text-center">
+                                <div class="icono-card mb-3">
+                                    <i class="bi bi-tools"></i>
+                                </div>
+                                <h4>
+                                    Experiencia Artesanal
+                                </h4>
+                                <p>
+                                    Cada proyecto refleja nuestra experiencia,
+                                    dedicación y pasión por el trabajo en
+                                    madera.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ATENCIÓN -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 shadow-sm card-confianza">
+                            <div class="card-body text-center">
+                                <div class="icono-card mb-3">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <h4>
+                                    Atención Personalizada
+                                </h4>
+                                <p>
+                                    Escuchamos las necesidades de nuestros
+                                    clientes para desarrollar proyectos únicos
+                                    y completamente personalizados.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FRASE FINAL -->
+                <div class="row mt-5">
+                    <div class="col text-center">
+                        <blockquote class="frase-nosotros">
+                            "Cada pieza de madera refleja nuestro compromiso,
+                            nuestra experiencia y la pasión por crear espacios
+                            únicos para cada hogar."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <!-- PIE DE PAGINA -->
-    <footer>
-        <table width="100%" bgcolor="#D8C3A5" cellpadding="15">
-            <tr>
-                <td align="center">
-                    © 2026 LA CASA DE LA MADERA
-                </td>
-            </tr>
-        </table>
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <!-- INFORMACIÓN -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <img src="../dist/image/logo 2.png"
+                        alt="Logo"
+                        width="100"
+                        class="logo-navbar me-3">
+                    <h4>
+                        LA CASA DE LA MADERA
+                    </h4>
+                    <p>
+                        Carpintería artesanal especializada en la fabricación
+                        de muebles personalizados, puertas, cocinas,
+                        escritorios, roperos y diversos trabajos en madera,
+                        ofreciendo siempre calidad y acabados profesionales.
+                    </p>
+                </div>
+                <!--     ENLACES RÁPIDOS       -->
+                <div class="col-12 col-lg-4 mb-4">
+                    <h4>
+                        Enlaces Rápidos
+                    </h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page/nosotros.html">
+                                Nosotros
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page/productos.html">
+                                Productos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page/servicios.html">
+                                Servicios
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page/contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--         CONTACTO          -->
+                <div class="col-12 col-lg-4">
+                    <h4>
+                        Información
+                    </h4>
+                    <p>
+                        <i class="bi bi-geo-alt-fill me-2"></i> 
+                        Av. Mariscal Castilla 1001,
+                        Miraflores, Arequipa - Perú
+                    </p>
+                    <p>
+                        <i class="bi bi-telephone-fill me-2"></i>
+                        +51 987 654 321
+                    </p>
+                    <p>
+                        <i class="bi bi-envelope-fill me-2"></i>
+                        contacto@lacasadelamadera.com
+                    </p>
+                    <p>
+                        <i class="bi bi-clock-fill me-2"></i>
+                        Lunes a Sábado
+                        8:00 a.m. - 6:00 p.m.
+                    </p>
+                </div>
+            </div>
+            <!-- COPYRIGHT -->
+            <hr>
+            <div class="row">
+                <div class="col text-center">
+                    <p class="mb-1">
+                        <strong>
+                            Trabajando la madera con pasión y calidad.
+                        </strong>
+                    </p>
+                    <p>
+                        © 2026 La Casa de la Madera.
+                        Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

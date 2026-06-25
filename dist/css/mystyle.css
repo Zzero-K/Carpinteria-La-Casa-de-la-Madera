@@ -1,0 +1,338 @@
+/* ESTILOS GENERALES */
+
+/* Fondo de toda la página */
+body{
+    background-color:#F8F5F0;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#4A3B2A;
+}
+
+/* Espaciado entre secciones */
+section{
+    padding:80px 0;
+}
+
+/* Títulos */
+h1,
+h2,
+h3,
+h4,
+h5{
+    color:#3E2723;
+    font-weight:bold;
+}
+
+/* Párrafos */
+p{
+    color:#5C5248;
+    line-height:1.8;
+}
+
+/* Enlaces */
+a{
+    text-decoration:none;
+    transition:0.3s;
+}
+
+/* Hover de enlaces */
+a:hover{
+    color:#8B5E3C;
+}
+
+/* imágenes responsivas */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+/* Scroll suave */
+html{
+    scroll-behavior:smooth;
+}
+
+/* NAVBAR */
+
+/* Barra de navegación */
+.navbar{
+    background-color: #FFFFFF;
+    padding: 15px 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/* Logo */
+.navbar-brand img{
+    transition: 0.3s;
+}
+
+/* Logo del menú */
+
+.logo-navbar{
+    width: 200px;
+}
+
+/* Efecto del logo */
+.navbar-brand img:hover{
+    transform: scale(1.05);
+}
+
+/* Título del logo */
+.titulo-logo{
+    color: #4E342E;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+/* Subtítulo */
+.subtitulo-logo{
+    color: #8B6B4A;
+    font-size: 0.95rem;
+}
+
+/* Menú */
+.nav-link{
+    color: #4E342E;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+/* Hover del menú */
+.nav-link:hover{
+    color: #A47551;
+}
+
+/* Página activa */
+.nav-link.active{
+    color: #8B5E3C;
+    font-weight: bold;
+}
+/* SECCIÓN HERO */
+
+/* Título principal */
+.hero h1{
+    color: #3E2723;
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+/* Texto del hero */
+.hero p{
+    font-size: 1.1rem;
+    color: #5C5248;
+}
+
+/* Imagen principal */
+.hero img{
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+    transition: 0.4s;
+}
+
+/* Efecto al pasar el mouse */
+.hero img:hover{
+    transform: scale(1.02);
+}
+
+/* Frase destacada */
+.frase{
+    background-color: #EFE6DD;
+    color: #4E342E;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+/* BOTONES */
+
+/* Botón principal */
+.btn-madera{
+    background-color: #8B5E3C;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+/* Hover botón principal */
+.btn-madera:hover{
+    background-color: #6D4C41;
+    color: white;
+}
+
+/* Botón secundario */
+.btn-outline-madera{
+    border: 2px solid #8B5E3C;
+    color: #8B5E3C;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+/* Hover botón secundario */
+.btn-outline-madera:hover{
+    background-color: #8B5E3C;
+    color: white;
+}
+/* TARJETAS */
+
+/* Tarjetas */
+.card{
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.18);
+}
+
+/* Imagen de la tarjeta */
+.card img{
+    height: 240px;
+    object-fit: cover;
+}
+
+/* Título */
+.card-title{
+    color: #4E342E;
+    font-weight: bold;
+}
+
+/* Texto */
+.card-text{
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Pie de la tarjeta */
+.card-footer{
+    background: white;
+    border: none;
+}
+/* TARJETAS ESPECIALES*/
+
+/* Productos */
+.card-producto{
+    background-color: #FFFFFF;
+}
+
+/* Beneficios */
+.card-beneficio{
+    background-color: #FFFDFB;
+}
+
+/* Materiales */
+.card-material{
+    background-color: #FFFDFB;
+}
+
+/* Misión */
+.card-mision{
+    background-color: #FFF9F3;
+}
+
+/* Visión */
+.card-vision{
+    background-color: #FFF9F3;
+}
+
+/* Confianza */
+.card-confianza{
+    background-color: #FFFDFB;
+}
+/* ICONOS */
+
+.icono-card{
+    font-size: 3rem;
+}
+
+/* FOOTER */
+
+/* Pie de página */
+.footer{
+    background-color: #3E2723;
+    color: white;
+}
+
+/* Títulos del footer */
+.footer h4{
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Texto */
+.footer p{
+    color: #E0E0E0;
+}
+
+/* Enlaces */
+.footer a{
+    color: #E0E0E0;
+}
+
+.footer a:hover{
+    color: #D7B899;
+}
+
+/* Línea */
+.footer hr{
+    border-color: #8B5E3C;
+}
+
+
+/* IMÁGENES Y VIDEO */
+
+/* Imagen principal */
+.imagen-principal{
+    border-radius: 20px;
+}
+
+/* Imagen de historia */
+.imagen-historia{
+    border-radius: 20px;
+}
+
+/* Video */
+.video-card{
+    max-width: 450px;
+    margin: auto;
+}
+
+
+/* RESPONSIVE */
+
+@media(max-width:992px){
+
+    .hero h1{
+        font-size:2.5rem;
+        text-align:center;
+    }
+
+    .hero p{
+        text-align:center;
+    }
+
+    .titulo-logo{
+        font-size:1.4rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    section{
+        padding:50px 0;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+}
+
